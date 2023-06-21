@@ -1,33 +1,27 @@
-import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useNavigate, useLocation } from "react-router-dom";
-import { Link } from "react-router-dom";
-import logo from "../../static/images/pitchr.png";
-import { BsCartPlus } from "react-icons/bs";
-import { BsFillCartCheckFill } from "react-icons/bs";
+import React, { useEffect, useState } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import { BsFillCartCheckFill } from "react-icons/bs";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import {
-  Container,
-  Row,
+  Button,
   Col,
-  Nav,
-  NavItem,
-  NavbarBrand,
-  NavbarToggler,
   Collapse,
-  NavLink,
+  Container,
   ListGroup,
   ListGroupItem,
+  Nav,
+  NavItem,
+  NavLink,
+  NavbarBrand,
+  NavbarToggler,
   Offcanvas,
-  OffcanvasHeader,
   OffcanvasBody,
-  Button,
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  OffcanvasHeader,
+  Row,
 } from "reactstrap";
-import { ToastContainer, toast } from "react-toastify";
+import logo from "../../static/images/pitchr.png";
 
 import {
   addToCart,
@@ -175,22 +169,18 @@ function Header() {
 
                   <Nav className="navbar-nav ml-auto align-items-center">
                     <div className="d-flex align-items-center">
-                      <Link
-                        className="add-cart btn-link bg-white px-2 py-1 shadow-sm rounded"
-                        onClick={toggleCartList}
+                      <a
+                        href="https://my.pitchr.dk/auth/sign-up"
+                        className="login-btn btn-link ms-3"
                       >
-                        <i className="bi bi-cart fs-5"></i>
-                      </Link>
-
-                      <Link
-                        className="wishlist-btn btn-link ms-3"
-                        onClick={togglewWishList}
+                        <i className="bi bi bi-person-plus me-2 fs-3 align-middle"></i>
+                      </a>
+                      <a
+                        className="login-btn btn-link ms-3"
+                        href="https://my.pitchr.dk/auth/sign-in"
                       >
-                        <i className="bi bi-heart me-2 fs-5"></i>
-                      </Link>
-                      <Link className="login-btn btn-link ms-3" to="/login">
                         <i className="bi bi-person me-2 fs-3 align-middle"></i>
-                      </Link>
+                      </a>
 
                       {/* <div
                         style={{ cursor: "pointer" }}
@@ -199,15 +189,6 @@ function Header() {
                       >
                         <i className="bi bi-list-nested fs-3 text-dark"></i>
                       </div> */}
-                      {!isMobile && (
-                        <div
-                          style={{ cursor: "pointer" }}
-                          className="ms-2 togglerCanvas d-inline-block border-0 px-2 py-1 bg-white shadow"
-                          onClick={toggle}
-                        >
-                          <i className="bi bi-list-nested fs-3 text-dark"></i>
-                        </div>
-                      )}
                     </div>
                   </Nav>
                 </Nav>

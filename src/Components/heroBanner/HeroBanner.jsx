@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 import LottiePlayer from "../player";
 import Bg from "../../static/lottie/heroBanner1.json";
+import investingAnim from "./lf20_r8nsnfit.json";
 
 function HeroBanner1() {
   return (
@@ -19,7 +20,7 @@ function HeroBanner1() {
         <Container>
           <Row className="align-items-center">
             <Col xs={12} lg={6} className="order-lg-1 ms-auto mb-lg-0">
-              <LottiePlayer src="https://lottie.host/3ddc0e30-a9f7-48e1-9b8d-a0ead2fa5ee4/JrQpGMHV6n.json" />
+              <LottiePlayer src={investingAnim} />
             </Col>
             <Col xs={12} lg={5}>
               <h1 className="font-w-4 mb-4">
@@ -32,23 +33,28 @@ function HeroBanner1() {
               <p className="lead text-dark mb-5">
                 Pitch, connect, diligence - all in one app.
               </p>
-              <Form id="mc-form1" className="group">
-                <FormGroup className="bg-light p-3 rounded-4 z-index-1 mb-0 d-flex align-items-center">
-                  <Input
-                    type="email"
-                    //value=""
-                    name="EMAIL"
-                    className="email  border-0 shadow-sm me-2 bg-white"
-                    id="mc-email1"
-                    placeholder="Email Address"
-                    required=""
-                    style={{ flexShrink: 1 }}
-                  />
-                  <Button color="dark" style={{ flexShrink: 0 }}>
-                    Get Started
+
+              <Container>
+                <Row>
+                  <Button
+                    className="custom-white-btn"
+                    style={{
+                      flexShrink: 0,
+                      fontSize: "18",
+                      background: "#2563eb",
+                    }}
+                  >
+                    Get Started as investor
+                    <i className="bi-cash-stack text-white ms-3"></i>{" "}
                   </Button>
-                </FormGroup>
-              </Form>
+                </Row>
+                <Row className="mt-3 ">
+                  <Button color="dark" style={{ flexShrink: 0 }}>
+                    Get Started as startup{" "}
+                    <i className="bi-graph-up text-white ms-3"></i>{" "}
+                  </Button>
+                </Row>
+              </Container>
             </Col>
           </Row>
         </Container>

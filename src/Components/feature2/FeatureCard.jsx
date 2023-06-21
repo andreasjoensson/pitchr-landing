@@ -10,9 +10,6 @@ const FeatureCard = ({ id, title, description, image }) => {
           <p className="mb-4 text-light">{description}</p>
           <a className="btn-arrow" href="#"></a>
         </div>
-        <div className="mt-6">
-          <img className="img-fluid" src={image} alt="" />
-        </div>
       </div>
     </Col>
   );

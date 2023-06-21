@@ -53,31 +53,10 @@ function Feature() {
     <div>
       <section className="bg-dark position-relative overflow-hidden z-index-1">
         <Container className="container">
-          <Row className="mb-10">
+          <Row>
             <Col className="col-12">
               <FeatureCarousel items={clients} />
             </Col>
-          </Row>
-          <Row className="justify-content-center text-center mb-6">
-            <Col lg={8} className="col-12">
-              <h6 className="border-bottom border-light border-2 d-inline-block text-primary">
-                Services
-              </h6>
-              <h2 className="font-w-6 text-white">
-                Discover new investment opportunities.
-              </h2>
-            </Col>
-          </Row>
-          <Row className="gx-5">
-            {features.map((feature, index) => (
-              <FeatureCard
-                key={feature.title}
-                title={feature.title}
-                description={feature.description}
-                image={feature.image}
-                id={index}
-              />
-            ))}
           </Row>
         </Container>
         <div className="position-absolute animation-1 w-100">

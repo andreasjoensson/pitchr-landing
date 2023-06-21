@@ -14,14 +14,14 @@ function Feature() {
     {
       title: "Access to a Curated Network of Investors",
       description:
-        "Pitchr gives you access to a curated network of investors looking for promising startups to invest in. Through our platform, you can connect with experienced investors, gain valuable insights and guidance, and secure the funding you need to fuel your growth.",
+        "Pitchr gives you access to a curated network of investors looking for promising startups to invest in. Through our platform, you can connect with experienced investors, gain valuable insights and guidance.",
       backgroundColor: "#dbf9f9",
       iconClass: "bi bi-file-earmark-person",
     },
     {
       title: "Showcase Your Unique Value Proposition",
       description:
-        "With Pitchr, you can highlight your unique value proposition and differentiate yourself from competitors. Showcase your pitch decks, videos, financial data, and other key details that capture the essence of your business. Present your startup in the best possible light and captivate the interest of potential investors.",
+        "With Pitchr, you can highlight your unique value proposition and differentiate yourself from competitors. Showcase your pitch decks, videos, financial data, and other key details that capture the essence of your business.",
       backgroundColor: "#faedff",
       iconClass: "bi bi-trophy",
     },
@@ -37,37 +37,37 @@ function Feature() {
                   <Col lg={4} md={4}>
                     <div className="counter">
                       <span
-                        className="number count text-primary"
+                        className="number count text-white"
                         data-count="200"
                       >
                         200
                       </span>
-                      <span className="text-primary">+</span>
-                      <h6 className="mb-0 text-light">Startups</h6>
+                      <span className="plus-count">+</span>
+                      <h6 className="mb-0 text-white">Startups</h6>
                     </div>
                   </Col>
                   <Col lg={4} md={4}>
                     <div className="counter">
                       <span
-                        className="number count text-primary"
+                        className="number count text-white"
                         data-count="450"
                       >
                         450
                       </span>
-                      <span className="text-primary">+</span>
-                      <h6 className="mb-0 text-light">Different industries</h6>
+                      <span className="plus-count">+</span>
+                      <h6 className="mb-0 text-white">Different industries</h6>
                     </div>
                   </Col>
                   <Col lg={4} md={4}>
                     <div className="counter">
                       <span
-                        className="number count text-primary"
+                        className="number count text-white"
                         data-count="666"
                       >
                         666
                       </span>
-                      <span className="text-primary">+</span>
-                      <h6 className="mb-0 text-light">Happy Customers</h6>
+                      <span className="plus-count">+</span>
+                      <h6 className="mb-0 text-white">Happy Customers</h6>
                     </div>
                   </Col>
                 </Row>

@@ -4,7 +4,7 @@ import "reactjs-popup/dist/index.css";
 import LottiePlayer from "../player";
 import Modal from "react-modal";
 import { useNavigate } from "react-router-dom";
-import Hero2 from "../../static/lottie/hero2.json";
+import Hero2 from "./dlf10_K3Nf22rRI1.json";
 import Bg from "../../static/lottie/hero2bg.json";
 
 function HeroBanner2() {

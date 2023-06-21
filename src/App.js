@@ -45,6 +45,7 @@ import ErrorPage from "./Pages/error-page/ErrorPage";
 import TAndC from "./Pages/term-And-Condition/tAndC";
 import Privacy from "./Pages/term-And-Condition/privacy";
 import { useEffect, useState } from "react";
+
 function App() {
   const location = useLocation();
   const [isLoading, setIsLoading] = useState(true);

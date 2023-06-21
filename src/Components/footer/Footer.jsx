@@ -15,11 +15,8 @@ import LottiePlayer from "../player";
 function Footer() {
   const navigate = useNavigate();
   const socialMedia = [
-    { icon: "bi-facebook", link: "/index" },
-    { icon: "bi-dribbble", link: "/index" },
-    { icon: "bi-instagram", link: "/index" },
-    { icon: "bi-tweeter", link: "/index" },
-    { icon: "bi-linkedin", link: "/index" },
+    { icon: "bi-twitter", link: "https://twitter.com/PitchrVc" },
+    { icon: "bi-linkedin", link: "https://www.linkedin.com/company/pitchrdk/" },
   ];
   return (
     <div>
@@ -113,9 +110,6 @@ function Footer() {
                 ))}
               </ul>
               <div className="subscribe-form">
-                <p className="mb-3 font-w-6 text-primary">
-                  Sign Up For Newsletter
-                </p>
                 <form
                   id="mc-form"
                   className="d-flex align-items-center shadow p-2 rounded bg-white"

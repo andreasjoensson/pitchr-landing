@@ -16,7 +16,7 @@ function Testimonial() {
       id: 2,
       image: require("../../static/images/people/whiteguy.png"),
       name: "Jonas Rain",
-      position: "Entrepreneur",
+      position: "Founder",
       quote:
         "Pitchr has transformed the way we connect with investors. It's a platform we're proud to be associated with. The opportunities it offers are exceptional, and once you experience it, you'll find it hard to leave. Our startup owes much of its success to Pitchr.",
     },

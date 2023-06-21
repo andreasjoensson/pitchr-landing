@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Col, Container, Row, Button } from "reactstrap";
-import Typing from "react-typing-animation";
 import { Player } from "@lottiefiles/react-lottie-player";
+import React, { useState } from "react";
 import Modal from "react-modal";
 import { useNavigate } from "react-router-dom";
+import { Button, Col, Container, Row } from "reactstrap";
+import heroAnim from "./lf20_pcspmx46.json";
 
 function HeroBanner3() {
   const navigate = useNavigate();
@@ -38,12 +38,7 @@ function HeroBanner3() {
         <Container>
           <Row className="align-items-center">
             <Col md={6} className="order-lg-1 ms-auto mb-8 mb-lg-0">
-              <Player
-                src="https://lottie.host/c0af2a8e-be32-464f-acc2-644da3f6834a/xlsvxusXcE.json"
-                className="player"
-                loop
-                autoplay
-              />
+              <Player src={heroAnim} className="player" loop autoplay />
             </Col>
             <Col md={6}>
               <h1 className="font-w-4">Secure </h1>

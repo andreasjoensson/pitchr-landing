@@ -145,7 +145,7 @@ function BlogSingle() {
                           className="btn-link rounded-4 d-inline-block py-2 px-3 bg-light-3"
                           href="#"
                         >
-                          Bootstrap 5
+                          Business
                         </a>
                       </li>
                       <li className="list-inline-item">
@@ -153,7 +153,7 @@ function BlogSingle() {
                           className="btn-link rounded-4 d-inline-block py-2 px-3 bg-light-3"
                           href="#"
                         >
-                          Data Science
+                          Business Growth
                         </a>
                       </li>
                       <li className="list-inline-item">
@@ -161,7 +161,7 @@ function BlogSingle() {
                           className="btn-link rounded-4 d-inline-block py-2 px-3 bg-light-3"
                           href="#"
                         >
-                          Analytics
+                          Marketing Strategies
                         </a>
                       </li>
                     </ul>
