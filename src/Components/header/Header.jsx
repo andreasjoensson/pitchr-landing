@@ -75,18 +75,18 @@ function Header() {
     },
     {
       label: "Investor",
-      to: "/index-2",
+      to: "/investor",
       dropdown: false,
     },
     {
       label: "Startup",
-      to: "/index-3",
+      to: "/startup",
       dropdown: false,
     },
     {
       label: "Contact",
       dropdown: false,
-      to: "/contact-us-2",
+      to: "/contact-us",
     },
   ];
   const [dropdownOpen, setDropdownOpen] = useState(

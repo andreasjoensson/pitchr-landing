@@ -14,16 +14,10 @@ function ContatcUs2() {
   };
   const contactInfo = [
     {
-      region: "North America",
-      address: "423B, Road Worldwide Country, USA",
-      phone: "+91-234-567-8900",
-      email: "themeht23@gmail.com",
-    },
-    {
-      region: "United Kingdom",
-      address: "423B, Road Worldwide Country, USA",
-      phone: "+91-234-567-8900",
-      email: "themeht23@gmail.com",
+      region: "København",
+      address: "Strikkegade 8, 1303 København K",
+      phone: "+45 22 15 66 49",
+      email: "info@pitchr.dk",
     },
   ];
   return (

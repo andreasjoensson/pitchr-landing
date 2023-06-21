@@ -114,8 +114,8 @@ function App() {
               <Header />
               <Routes>
                 <Route path="/" element={<Index />} />
-                <Route path="/index-2" element={<Index2 />} />
-                <Route path="/index-3" element={<Index3 />} />
+                <Route path="/investor" element={<Index2 />} />
+                <Route path="/startup" element={<Index3 />} />
                 <Route path="/about-us-1" element={<About_us_1 />} />
                 <Route path="/about-us-2" element={<About_us_2 />} />
                 <Route path="/team" element={<Team />} />
@@ -149,8 +149,8 @@ function App() {
                 <Route path="/blog-card" element={<BlogCard />} />
                 <Route path="/blog-listing" element={<BlogList1 />} />
                 <Route path="/blog-listing-2" element={<BlogList2 />} />
-                <Route path="/contact-us" element={<Contact />} />
-                <Route path="/contact-us-2" element={<ContatcUs2 />} />
+                <Route path="/contact-us-2" element={<Contact />} />
+                <Route path="/contact-us" element={<ContatcUs2 />} />
                 <Route path="/terms-and-conditions" element={<TAndC />} />
                 <Route path="/privacy-policy" element={<Privacy />} />
 
