@@ -170,14 +170,8 @@ function Header() {
                   <Nav className="navbar-nav ml-auto align-items-center">
                     <div className="d-flex align-items-center">
                       <a
-                        href="https://my.pitchr.dk/auth/sign-up"
                         className="login-btn btn-link ms-3"
-                      >
-                        <i className="bi bi bi-person-plus me-2 fs-3 align-middle"></i>
-                      </a>
-                      <a
-                        className="login-btn btn-link ms-3"
-                        href="https://my.pitchr.dk/auth/sign-in"
+                        href="https://app.pitchr.dk/auth/sign-in"
                       >
                         <i className="bi bi-person me-2 fs-3 align-middle"></i>
                       </a>

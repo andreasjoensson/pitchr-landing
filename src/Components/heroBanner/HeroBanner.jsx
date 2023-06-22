@@ -1,17 +1,9 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Button,
-} from "reactstrap";
-import LottiePlayer from "../player";
+import { Button, Col, Container, Row } from "reactstrap";
 import Bg from "../../static/lottie/heroBanner1.json";
+import LottiePlayer from "../player";
 import investingAnim from "./lf20_r8nsnfit.json";
+import { Link } from "react-router-dom";
 
 function HeroBanner1() {
   return (
@@ -36,23 +28,33 @@ function HeroBanner1() {
 
               <Container>
                 <Row>
-                  <Button
-                    className="custom-white-btn"
-                    style={{
-                      flexShrink: 0,
-                      fontSize: "18",
-                      background: "#2563eb",
-                    }}
+                  <Link
+                    to="https://app.pitchr.dk/auth/sign-up/investor"
+                    target="_blank"
                   >
-                    Get Started as investor
-                    <i className="bi-cash-stack text-white ms-3"></i>{" "}
-                  </Button>
+                    <Button
+                      className="custom-white-btn"
+                      style={{
+                        flexShrink: 0,
+                        fontSize: "18",
+                        background: "#2563eb",
+                      }}
+                    >
+                      Get Started as investor
+                      <i className="bi-cash-stack text-white ms-3"></i>{" "}
+                    </Button>
+                  </Link>
                 </Row>
                 <Row className="mt-3 ">
-                  <Button color="dark" style={{ flexShrink: 0 }}>
-                    Get Started as startup{" "}
-                    <i className="bi-graph-up text-white ms-3"></i>{" "}
-                  </Button>
+                  <Link
+                    to="https://app.pitchr.dk/auth/sign-up/business"
+                    target="_blank"
+                  >
+                    <Button color="dark" style={{ flexShrink: 0 }}>
+                      Get Started as startup{" "}
+                      <i className="bi-graph-up text-white ms-3"></i>{" "}
+                    </Button>
+                  </Link>
                 </Row>
               </Container>
             </Col>

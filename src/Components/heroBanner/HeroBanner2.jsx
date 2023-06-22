@@ -20,7 +20,7 @@ function HeroBanner2() {
   };
 
   const handleClick = () => {
-    navigate("/contact-us");
+    window.location.href = "https://app.pitchr.dk/auth/sign-up/investor";
   };
 
   return (

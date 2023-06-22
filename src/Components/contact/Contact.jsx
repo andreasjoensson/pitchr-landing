@@ -26,7 +26,10 @@ function Contact() {
                 collaborate, and thrive in a dynamic ecosystem.{" "}
               </p>
 
-              <Link to="contact-us" className="btn btn-primary">
+              <Link
+                to="https://app.pitchr.dk/auth/sign-up/business"
+                className="btn btn-primary"
+              >
                 Let's Get Started
               </Link>
             </div>

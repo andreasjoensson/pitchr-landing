@@ -19,7 +19,7 @@ function HeroBanner3() {
   };
 
   const handleClick = () => {
-    navigate("/contact-us");
+    window.location.href = "https://app.pitchr.dk/auth/sign-up/business";
   };
 
   const words = [
