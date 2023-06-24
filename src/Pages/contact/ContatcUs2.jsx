@@ -8,7 +8,7 @@ import MapSection from "./MapSection";
 function ContatcUs2() {
   const firstBreadcrumb = { label: "Pages", link: "/contact-us-2" };
   const secondBreadcrumb = {
-    label: "Contatct Us 2",
+    label: "Contatct Us",
     link: "/contact-us-2",
     active: true,
   };

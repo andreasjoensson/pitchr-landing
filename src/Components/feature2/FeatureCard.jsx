@@ -8,7 +8,6 @@ const FeatureCard = ({ id, title, description, image }) => {
         <div>
           <h4 className="mb-3 text-white">{title}</h4>
           <p className="mb-4 text-light">{description}</p>
-          <a className="btn-arrow" href="#"></a>
         </div>
       </div>
     </Col>

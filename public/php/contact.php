@@ -7,7 +7,7 @@
 $from = 'Bootsland contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'themeht23@gmail.com';
+$sendTo = 'andreas.ecuador@live.dk';
 
 // subject of the email
 $subject = 'New message from contact form';

@@ -13,7 +13,6 @@ const CardComponent = ({ title, description, backgroundColor, iconClass }) => {
       <div>
         <h5 className="mb-3 text-white">{title}</h5>
         <p className="mb-4 text-light">{description}</p>
-        <Link to="/" className="btn-arrow"></Link>
       </div>
     </div>
   );
