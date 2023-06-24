@@ -92,14 +92,14 @@ function HeroBanner3() {
                     },
                   }}
                 >
-                  <div>
+                  <div className="w-100 h-100">
                     <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/Nv7RgGpu6ME"
+                      className="w-100 h-100 position-relative"
+                      scrolling="no"
+                      frameBorder="0"
+                      src="https://firebasestorage.googleapis.com/v0/b/pitchr-d3d71.appspot.com/o/videos%2Femployees.mp4?alt=media&token=227d48f8-8fbd-428e-9fc8-a686a701eb87"
                       title="Video Player"
                       //allowFullScreen
-                      allow="autoplay"
                     ></iframe>
                   </div>
                 </Modal>

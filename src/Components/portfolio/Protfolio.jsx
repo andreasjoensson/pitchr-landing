@@ -41,38 +41,6 @@ function Portfolio() {
                 Join the hottest industries in acquiring funding.
               </h2>
             </Col>
-            <Col xs="12" lg="6" className="ms-auto">
-              <div className="portfolio-filter d-sm-flex align-items-center justify-content-lg-end">
-                <Nav>
-                  <Button
-                    className={activeTab === "all" ? "is-checked" : ""}
-                    onClick={() => handleTabClick("all")}
-                  >
-                    All
-                  </Button>
-                  <Button
-                    className={activeTab === "Technology" ? "is-checked" : ""}
-                    onClick={() => handleTabClick("Technology")}
-                  >
-                    Technology
-                  </Button>
-                  <Button
-                    className={activeTab === "Healthcare" ? "is-checked " : ""}
-                    onClick={() => handleTabClick("Healthcare")}
-                  >
-                    Healthcare
-                  </Button>
-                  <Button
-                    className={
-                      activeTab === "Renewable Energy" ? "is-checked" : ""
-                    }
-                    onClick={() => handleTabClick("Renewable Energy")}
-                  >
-                    Renewable Energy
-                  </Button>
-                </Nav>
-              </div>
-            </Col>
           </Row>
           <Row>
             {filteredPortfolioItems.map((item, index) => (
@@ -87,28 +55,9 @@ function Portfolio() {
                     <div>
                       <small className="mb-2">{item.category}</small>
                       <h6 className="mb-0">
-                        <Link
-                          className="btn-link"
-                          to="/portfolio-single"
-                          onClick={() => {
-                            dispatch(setSelectedPortFolio(item.title));
-                          }}
-                        >
-                          {item.title}
-                        </Link>
+                        <span className="btn-link">{item.title}</span>
                       </h6>
                     </div>
-                    <a
-                      className="popup-img btn-link"
-                      href={item.imgSrc}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setPhotoIndex(index);
-                        setIsOpen(true);
-                      }}
-                    >
-                      <i className="bi bi-patch-plus fs-4"></i>
-                    </a>
                   </div>
                 </div>
               </Col>

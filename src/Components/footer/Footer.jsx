@@ -48,32 +48,6 @@ function Footer() {
               </ul>
             </Col>
 
-            <Col md={6} lg={2} className="mt-6 mt-lg-0 ">
-              <h5 className="mb-4">Our Link</h5>
-              <Nav className="navbar-nav list-unstyled mb-0">
-                <NavItem className="mb-3">
-                  <Link to="/about-us-1" className="nav-link">
-                    About
-                  </Link>
-                </NavItem>
-                <NavItem className="mb-3">
-                  <Link to="/team" className="nav-link">
-                    Team
-                  </Link>
-                </NavItem>
-                <NavItem className="mb-3">
-                  <Link to="/blog-card" className="nav-link">
-                    Blogs
-                  </Link>
-                </NavItem>
-                <NavItem className="mb-3">
-                  <Link to="/contact-us" className="nav-link">
-                    Contact Us
-                  </Link>
-                </NavItem>
-              </Nav>
-            </Col>
-
             <Col md={6} lg={2} className="mt-6 mt-lg-0 footer-menu">
               <h5 className="mb-4">Legal</h5>
               <Nav className="navbar-nav list-unstyled mb-0">

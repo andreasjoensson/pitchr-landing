@@ -74,19 +74,20 @@ function HeroBanner2() {
                         top: "50%",
                         left: "50%",
                         transform: "translate(-50%, -50%)",
-                        maxWidth: "80%",
-                        maxHeight: "80%",
+                        maxWidth: "100%",
+                        maxHeight: "100%",
                         overflow: "auto",
                         outline: "none",
                         backgroundColor: "white",
                       },
                     }}
                   >
-                    <div>
+                    <div className="w-100 h-100">
                       <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/Nv7RgGpu6ME"
+                        className="w-100 h-100 position-relative"
+                        scrolling="no"
+                        frameBorder="0"
+                        src="https://firebasestorage.googleapis.com/v0/b/pitchr-d3d71.appspot.com/o/videos%2FInvestors.mp4?alt=media&token=1f87bacf-457b-4ed2-a5b2-94ecef4ed1aa"
                         title="Video Player"
                         //allowFullScreen
                       ></iframe>

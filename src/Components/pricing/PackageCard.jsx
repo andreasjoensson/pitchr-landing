@@ -9,6 +9,7 @@ import {
   CardText,
   Button,
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const PackageCard = ({ title, subTitle, price, features, buttonColor }) => (
   <Card
@@ -68,9 +69,12 @@ const PackageCard = ({ title, subTitle, price, features, buttonColor }) => (
           </p>
         </div>
       ))}
-      <Button color={buttonColor} block outline className="mt-5">
-        Choose Package
-      </Button>
+
+      <Link to="https://app.pitchr.dk/auth/sign-up/business">
+        <Button color={buttonColor} block outline className="mt-5">
+          Get started
+        </Button>
+      </Link>
     </CardBody>
   </Card>
 );

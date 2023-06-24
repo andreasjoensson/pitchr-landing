@@ -1,18 +1,10 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardBody,
-  CardTitle,
-  CardText,
-  Button,
-} from "reactstrap";
+import { Link } from "react-router-dom";
+import { Button, Card, CardBody, CardText, CardTitle } from "reactstrap";
 
 const PackageCard = ({ title, subTitle, price, features, buttonColor }) => (
   <Card className={"rounded-4"}>
-         <CardBody className="py-8 px-6">
+    <CardBody className="py-8 px-6">
       <div className="mb-2 d-flex align-items-center">
         <i className="bi bi-award fs-1 text-primary me-2"></i>
         <CardTitle tag="h5" className={"mb-0"}>
@@ -33,9 +25,16 @@ const PackageCard = ({ title, subTitle, price, features, buttonColor }) => (
           <p className={`mb-0 `}>{feature}</p>
         </div>
       ))}
-      <Button   block outline className="mt-5 mt-5 btn btn-outline-dark d-block w-100">
-        Choose Package
-      </Button>
+      <Link to="https://app.pitchr.dk/auth/sign-up/business">
+        <Button
+          block
+          color={buttonColor}
+          outline
+          className="mt-5 mt-5 btn btn-outline-dark d-block w-100"
+        >
+          Get started
+        </Button>
+      </Link>
     </CardBody>
   </Card>
 );

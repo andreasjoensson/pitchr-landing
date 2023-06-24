@@ -57,8 +57,11 @@ function About2() {
                 </div>
               </div>
 
-              <Link className="btn btn-dark mt-6" to="/about-us">
-                Learn More About
+              <Link
+                className="btn btn-dark mt-6"
+                to="https://app.pitchr.dk/auth/sign-up/investor"
+              >
+                Get Started
               </Link>
             </Col>
           </Row>
