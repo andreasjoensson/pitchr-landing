@@ -1,12 +1,11 @@
 import React from "react";
-import Feature from "../../Components/feature/Feature";
 import About from "../../Components/about/About";
-import Counter from "../../Components/counter/Counter";
-import Testimonial from "../../Components/testimonial/Testimonial";
-import Pricing from "../../Components/pricing/Pricing";
 import Blog from "../../Components/blog/Blog";
 import Contact from "../../Components/contact/Contact";
+import Counter from "../../Components/counter/Counter";
+import Feature from "../../Components/feature/Feature";
 import HeroBanner1 from "../../Components/heroBanner/HeroBanner";
+import Pricing from "../../Components/pricing/Pricing";
 function index() {
   return (
     <div>
@@ -15,7 +14,6 @@ function index() {
         <Feature />
         <Counter />
         <About />
-        <Testimonial />
         <Pricing />
         <Blog />
         <Contact />
