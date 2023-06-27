@@ -25,7 +25,7 @@ const PackageCard = ({ title, subTitle, price, features, buttonColor }) => (
           <p className={`mb-0 `}>{feature}</p>
         </div>
       ))}
-      <Link to="https://app.pitchr.dk/auth/sign-up/business">
+      <Link to="https://app.pitcha.net/auth/sign-up/business">
         <Button
           block
           color={buttonColor}

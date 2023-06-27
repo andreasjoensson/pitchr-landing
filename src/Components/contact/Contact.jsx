@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import { Col, Container, Row } from "reactstrap";
 import BgImage from "../../static/images/bg/01.png";
 
 function Contact() {
@@ -27,7 +27,7 @@ function Contact() {
               </p>
 
               <Link
-                to="https://app.pitchr.dk/auth/sign-up/business"
+                to="https://app.pitcha.net/auth/sign-up/business"
                 className="btn btn-primary"
               >
                 Let's Get Started

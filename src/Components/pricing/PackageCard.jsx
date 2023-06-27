@@ -70,7 +70,7 @@ const PackageCard = ({ title, subTitle, price, features, buttonColor }) => (
         </div>
       ))}
 
-      <Link to="https://app.pitchr.dk/auth/sign-up/business">
+      <Link to="https://app.pitcha.net/auth/sign-up/business">
         <Button color={buttonColor} block outline className="mt-5">
           Get started
         </Button>

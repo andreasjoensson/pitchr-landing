@@ -171,7 +171,7 @@ function Header() {
                     <div className="d-flex align-items-center">
                       <a
                         className="login-btn btn-link ms-3"
-                        href="https://app.pitchr.dk/auth/sign-in"
+                        href="https://app.pitcha.net/auth/sign-in"
                       >
                         <i className="bi bi-person me-2 fs-3 align-middle"></i>
                       </a>

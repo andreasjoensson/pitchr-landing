@@ -29,7 +29,7 @@ function HeroBanner1() {
               <Container>
                 <Row>
                   <Link
-                    to="https://app.pitchr.dk/auth/sign-up/investor"
+                    to="https://app.pitcha.net/auth/sign-up/investor"
                     target="_blank"
                   >
                     <Button
@@ -47,7 +47,7 @@ function HeroBanner1() {
                 </Row>
                 <Row className="mt-3 ">
                   <Link
-                    to="https://app.pitchr.dk/auth/sign-up/business"
+                    to="https://app.pitcha.net/auth/sign-up/business"
                     target="_blank"
                   >
                     <Button color="dark" style={{ flexShrink: 0 }}>
